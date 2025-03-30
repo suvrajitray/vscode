@@ -1,0 +1,224 @@
+{
+  "[arm-template]": {
+    "editor.defaultFormatter": "msazurermtools.azurerm-vscode-tools"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "azureFunctions.pickProcessTimeout": 120,
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "off",
+  "codesnap.containerPadding": "0.5em",
+  "csharp.semanticHighlighting.enabled": true,
+  "cSpell.customDictionaries": {
+    "custom-dictionary-user": {
+      "addWords": true,
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "scope": "user"
+    }
+  },
+  "cSpell.userWords": [
+    "-Recurse",
+    "asvetliakov",
+    "atppuccin",
+    "autofetch",
+    "azurerm",
+    "Cascadia",
+    "codesnap",
+    "dont",
+    "easymotioninputmode",
+    "easymotionmode",
+    "esbenp",
+    "floorplans",
+    "foldfix",
+    "github",
+    "highlightedyank",
+    "hlsearch",
+    "keymap",
+    "lintstagedrc",
+    "lockb",
+    "markdownlintignore",
+    "Menlo",
+    "msazurermtools",
+    "msbuild",
+    "neovim",
+    "nuget",
+    "ommandlineinprogress",
+    "onum",
+    "printfn",
+    "quickchat",
+    "rgba",
+    "Rosé",
+    "searchinprogressmode",
+    "Semibold",
+    "surroundinputmode",
+    "suvrajit",
+    "Suvrajit",
+    "Uami",
+    "Unstage",
+    "visualblock",
+    "visualline",
+    "vscodevim",
+    "vsicons",
+    "vsplit",
+    "whichkey"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  // "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    // "source.addMissingImports": true,
+    // "source.fixAll": true
+    // "source.organizeImports": true
+  },
+  "editor.colorDecorators": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorSurroundingLines": 5,
+  // "editor.fontFamily": "Cascadia Code, Hack Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.fontFamily": "Hack Nerd Font, JetBrains Mono, Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 19,
+  // "editor.fontWeight": "300",
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "editor.letterSpacing": 0.9,
+  "editor.lightbulb.enabled": "off",
+  "editor.lineHeight": 1.5,
+  // "editor.lineHeight": 30,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  // "editor.renderLineHighlight": "none"
+  "editor.occurrencesHighlight": "off",
+  "editor.overviewRulerBorder": false,
+  "editor.renderWhitespace": "none",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.selectionHighlight": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "errorLens.fontStyleItalic": true,
+  "explorer.compactFolders": false,
+  // "explorer.confirmDelete": false,
+  // "explorer.confirmDragAndDrop": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "files.exclude": {
+    "**/.DS_Store": false,
+    "**/.env.example": false,
+    "**/.eslintrc.cjs": false,
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.husky": false,
+    "**/.lintstagedrc.mjs": false,
+    "**/.markdownlint.json": false,
+    "**/.markdownlintignore": false,
+    "**/.next": false,
+    "**/.svn": false,
+    "**/.todo.md": false,
+    "**/.vscode": false,
+    "**/bun.lockb": false,
+    "**/cspell.json": false,
+    "**/CVS": false,
+    "**/dist": false,
+    "**/drizzle": false,
+    "**/migrate.ts": false,
+    "**/next-env.d.ts": false,
+    "**/node_modules": false,
+    "**/package-lock.json": false,
+    "**/pnpm-lock.yaml": false,
+    "**/postcss.config.cjs": false,
+    "**/Thumbs.db": false
+  },
+  "files.insertFinalNewline": true,
+  // "editor.hover.enabled": false,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "haskell.manageHLS": "GHCup",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.hidesExplorerArrows": true,
+  // "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "rest-client.environmentVariables": {
+    "$shared": {}
+  },
+  // "prettier.trailingComma": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 1.2,
+  "typescript.tsserver.log": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "update.mode": "default",
+  "vscode-neovim.compositeKeys": {
+    "jj": {
+      "args": [
+        [
+          "local code = require('vscode-neovim')",
+          "code.action('vscode-neovim.escape')"
+        ]
+      ],
+      // Use lua to execute any logic
+      "command": "vscode-neovim.lua"
+    },
+    "jk": {
+      "args": [
+        [
+          "local code = require('vscode-neovim')",
+          "code.action('vscode-neovim.escape')"
+        ]
+      ],
+      // Use lua to execute any logic
+      "command": "vscode-neovim.lua"
+    }
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
+  // "workbench.editor.showTabs": "single",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.indent": 19,
+  "workbench.tree.renderIndentGuides": "none",
+  "zenMode.hideLineNumbers": false
+}
